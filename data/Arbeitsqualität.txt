@@ -1,0 +1,10 @@
+1 - {ANREDE} arbeitete stets selbständig, zuverlässig und mit größter Sorgfalt.
+1 - Die Arbeitsqualität war jederzeit hervorragend und beispielhaft.
+2 - {ANREDE} erledigte die übertragenen Aufgaben stets zu unserer vollen Zufriedenheit.
+2 - Die Arbeitsleistung war durchweg gut und zuverlässig.
+3 - {ANREDE} erfüllte die gestellten Aufgaben zu unserer Zufriedenheit.
+3 - Die Arbeitsqualität entsprach unseren Erwartungen.
+4 - {ANREDE} bemühte sich, die übertragenen Aufgaben ordnungsgemäß zu erledigen.
+4 - Die Arbeitsleistung war im Wesentlichen zufriedenstellend.
+5 - {ANREDE} erledigte die übertragenen Aufgaben nach Anweisung.
+5 - Die Arbeitsqualität war nicht immer zufriedenstellend.

@@ -1,0 +1,51 @@
+/* Custom styles for Zeugnis Generator */
+
+.category-panel {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+.category-panel h4 {
+  color: #337ab7;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.grade-select,
+.sentence-select {
+  margin-bottom: 10px;
+}
+
+#final_text {
+  font-family: "Times New Roman", serif;
+  line-height: 1.6;
+  font-size: 14px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.copy-button {
+  margin-bottom: 15px;
+}
+
+.preview-box {
+  background-color: #f9f9f9;
+  border-left: 4px solid #5cb85c;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.help-section {
+  margin-bottom: 20px;
+}
+
+.help-section h4 {
+  color: #337ab7;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}

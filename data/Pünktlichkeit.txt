@@ -1,0 +1,10 @@
+1 - {ANREDE} war stets pünktlich und äußerst zuverlässig.
+1 - Pünktlichkeit und Zuverlässigkeit waren hervorragend ausgeprägt.
+2 - {ANREDE} zeigte gute Pünktlichkeit und Zuverlässigkeit.
+2 - Die Arbeitszeiten wurden ordnungsgemäß eingehalten.
+3 - {ANREDE} war im Allgemeinen pünktlich und zuverlässig.
+3 - Die Pünktlichkeit entsprach den Erwartungen.
+4 - {ANREDE} bemühte sich um Pünktlichkeit.
+4 - Die Arbeitszeiten wurden größtenteils eingehalten.
+5 - {ANREDE} zeigte Verbesserungsbedarf bei der Pünktlichkeit.
+5 - Die Einhaltung der Arbeitszeiten ließ zu wünschen übrig.

@@ -1,0 +1,64 @@
+# Copilot Instructions for Shiny Dashboard Application
+
+## Project Overview
+
+This is a Shiny application built with shinydashboard that helps writing German "Arbeitszeugnisse".
+German Arbeitszeugnisse have a very specific format and specific formulations correspond with specific grades.
+The tool lets the user pick categories that can or can not appear in the Zeugnis and for each category
+a grade can be selected. For each grade several different sentences can be selected.
+The tool then combines the selected sentences into a full text that can be copied into the clipboard
+for pasting into Word.
+The categories and sentences are determined using .txt files in the data directory, where the filename
+determines the category name (e.g., Sozialverhalten, Pünktlichkeit, etc.) and each line in the file corresponds to a sentence.
+Each sentence start with a number between 1 and 5 corresponding to the grades (sehr gut, gut, befriedigend, ausreichend, mangelhaft).
+An example could be "1 - {ANREDE} war jederzeit pünktlich und zuverlässig". The text example contains a template-space {ANREDE},
+which the user can determine using input fields (e.g., by typing First name and Last name and Gender into a field.)
+The user interface is german.
+
+## Key Technologies
+
+- R Shiny
+- shinydashboard
+- [Add other relevant packages]
+
+## Architecture Guidelines
+
+- Use shinydashboard structure with header, sidebar, and body
+- Organize UI components in logical modules
+- Separate server logic into reactive functions
+- Follow Shiny best practices for reactivity
+
+## Code Style
+
+- Use meaningful variable and function names
+- Add comments for complex logic
+- Keep functions focused and modular
+- Use consistent indentation and formatting
+
+## File Structure
+
+- `app.R` or separate `ui.R` and `server.R`
+- `/modules/` for Shiny modules (if using modular approach)
+- `/data/` for data files
+- `/www/` for static assets (CSS, JS, images)
+- `/R/` for helper functions
+
+## Dashboard Components
+
+- Use appropriate shinydashboard components (boxes, value boxes, info boxes)
+- Implement responsive design principles
+- Consider user experience and navigation flow
+
+## Specific Requirements
+
+The UI elements for the categories should be generated programmatically depending on the files in the data directory.
+
+## Dependencies
+
+Make sure to load required packages:
+
+```r
+library(shiny)
+library(shinydashboard)
+# Add other required libraries
+```
