@@ -1,6 +1,10 @@
 1 - {ANREDE} verfügte über ausgezeichnete Führungsqualitäten. {PRONOUN} motivierte {POSSESSIVE} Team stets vorbildlich.
 1 - Als Führungskraft war {TITEL} {NACHNAME} außergewöhnlich. {ER_SIE} förderte jeden Mitarbeiter individuell.
-2 - {ANREDE} zeigte gute Führungskompetenzen. Das Team schätzte {ihn_sie} als kompetente Leitung.
+2 - 1 - {ANREDE} verfügt über sehr gute Führungseigenschaften und motivierte {possessive_acc_fn} Mitarbeiter stets zu sehr hohen Leistungen. Aufgaben und Verantwortung delegierte {pronoun} zielgerichtet.
+2 - {ANREDE} überzeugte {possessive_acc_fn} Mitarbeiter und förderte die Zusammenarbeit. {PRONOUN} informierte {sein_ihr} Team, regte Weiterbildung an und delegierte Aufgaben und Verantwortung und erreichte so ein hohes Abteilungsergebnis.
+3 - {ANREDE} führte {possessive_acc_fn} Mitarbeiter zielbewusst und konsequent zu voll befriedigenden Leistungen.
+4 - {ANREDE} setzte Mitarbeiter ihren Fähigkeiten entsprechend ordnungsgemäß ein und motivierte sie sachgemäß.
+5 - {ANREDE} war sich stets der besonderen Verantwortung, die sich aus einem Führungsauftrag ergibt, bewusst. {PRONOUN} erwartete, dass die Mitarbeiter sich jederzeit voll einsetzten.
 2 - Die Führungsqualitäten waren durchweg gut. {PRONOUN} konnte {POSSESSIVE} Mitarbeiter erfolgreich leiten.
 3 - {ANREDE} erfüllte {POSSESSIVE} Führungsaufgaben zufriedenstellend. {pronoun} bemühte sich um gute Teamarbeit.
 3 - Als Führungskraft war {er_sie} angemessen. Die Zusammenarbeit mit {IHM_IHR} verlief problemlos.

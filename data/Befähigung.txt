@@ -1,0 +1,5 @@
+1 - {ANREDE} verfügt über ein sehr gutes analytisch-konzeptionelles und zugleich pragmatisches Urteils- und Denkvermögen.
+2 - {ANREDE} verfügt über ein gutes analytisch-konzeptionelles und zugleich pragmatisches Urteils- und Denkvermögen.
+3 - {ANREDE} bewies Belastbarkeit und Flexibilität.
+4 - {ANREDE} verfügte über eine ausreichende Arbeitsbefähigung.
+5 - Zu den unabdingbaren Voraussetzungen für {possessive_acc_fn} Funktion gehörten Eigenschaften wie Belastbarkeit, Flexibilität und analytisches Denkvermögen.

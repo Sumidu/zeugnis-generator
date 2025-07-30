@@ -1,0 +1,5 @@
+1 - {ANREDE} lieferte stets sehr gute Arbeitsergebnisse und hat die selbst gesetzten sowie die vereinbarten Ziele, auch unter schwierigsten Umständen, stets erreicht und meist sogar übertroffen.
+2 - {ANREDE} lieferte stets gute Arbeitsergebnisse und hat die selbst gesetzten sowie die vereinbarten Ziele, auch unter schwierigen Umständen, stets erreicht und oft sogar übertroffen.
+3 - {ANREDE} lieferte gute Arbeitsergebnisse und hat die vereinbarten Ziele erreicht.
+4 - {ANREDE} hat vorgegebene Ziele in zufriedenstellendem Maße erreicht.
+5 - {ANREDE} hat stets mit Nachdruck daran gearbeitet, die vorgegebenen Ziele zu erreichen.

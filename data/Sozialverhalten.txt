@@ -1,10 +1,5 @@
-1 - {ANREDE} zeigte vorbildliches Sozialverhalten und war stets kollegial und hilfsbereit.
-1 - Das Verhalten gegenüber Vorgesetzten, Kollegen und Kunden war stets einwandfrei und vorbildlich.
-2 - {ANREDE} verhielt sich jederzeit korrekt und zeigte gute soziale Kompetenz.
-2 - Das Verhalten war durchweg angemessen und professionell.
-3 - {ANREDE} verhielt sich im Allgemeinen angemessen und korrekt.
-3 - Das Verhalten gegenüber Kollegen und Vorgesetzten war im Wesentlichen zufriedenstellend.
-4 - {ANREDE} bemühte sich um korrektes Verhalten.
-4 - Das Verhalten war im Großen und Ganzen angemessen.
-5 - {ANREDE} zeigte Verbesserungspotential im sozialen Umgang.
-5 - Das Verhalten gab vereinzelt Anlass zur Beanstandung.
+1 - {POSSESSIVE_ACC_MN} Verhalten gegenüber Vorgesetzten und Kollegen war jederzeit vorbildlich.
+2 - {POSSESSIVE_ACC_MN} Verhalten gegenüber Vorgesetzten und Kollegen war jederzeit einwandfrei.
+3 - {POSSESSIVE_ACC_MN} Verhalten gegenüber Vorgesetzten und Kollegen war einwandfrei.
+4 - {POSSESSIVE_ACC_MN} Verhalten gegenüber Kollegen und Vorgesetzten war korrekt und ohne Beanstandung.
+5 - Es erübrigt sich zu betonen, dass {sein_ihr} Betragen gegenüber den Vorgesetzten und Kollegen unbelastet war.

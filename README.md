@@ -23,6 +23,7 @@ Ein professioneller Shiny Dashboard zur Erstellung von deutschen Arbeitszeugniss
 ## 🚀 Nutzung
 
 1. App starten:
+
    ```r
    shiny::runApp()
    ```
@@ -89,22 +90,26 @@ Rscript test_fachkompetenz.R
 ## 📚 Template-Variablen
 
 ### Grundvariablen
+
 - `{ANREDE}`: Automatische Anrede (Herr/Frau + Name oder nur Name für 'd')
 - `{VORNAME}`: Vorname
 - `{NACHNAME}`: Nachname
 - `{PRONOUN}`: Personalpronomen (er/sie/sie)
 
 ### Possessivpronomen (Nominativ)
+
 - `{SEIN_IHR}`: sein/ihr
 - `{SEINE_IHRE}`: seine/ihre
 - `{SEINEM_IHREM}`: seinem/ihrem
 - `{SEINER_IHRER}`: seiner/ihrer
 
 ### Possessivpronomen (Akkusativ)
+
 - `{POSSESSIVE_ACC_M}`: seinen/ihren (maskulin)
 - `{POSSESSIVE_ACC_FN}`: Seine/Ihre (feminin/neutrum, kapitalisiert)
 
 ### Possessivpronomen (Dativ)
+
 - `{POSSESSIVE_DAT_MN}`: seinem/ihrem (maskulin/neutrum)
 - `{POSSESSIVE_DAT_F}`: Seiner/Ihrer (feminin, kapitalisiert)
 

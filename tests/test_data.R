@@ -15,7 +15,8 @@ cat("Grade names:", names(grade_names), "\n")
 for (category_name in names(categories_data)) {
   cat("\n--- Category:", category_name, "---\n")
   for (grade_num in names(categories_data[[category_name]])) {
-    grade_name <- grade_names[[grade_num]]
+    # Find the grade name from the grade_names vector
+    grade_name <- names(grade_names)[grade_names == grade_num]
     sentences <- categories_data[[category_name]][[grade_num]]
     if (!is.null(sentences) && length(sentences) > 0) {
       cat("Grade", grade_num, "(", grade_name, ") has", length(sentences), "sentences\n")

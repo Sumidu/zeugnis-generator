@@ -1,0 +1,5 @@
+1 - {ANREDE} zeigte stets ein sehr hohes Maß an Eigeninitiative und Leistungsbereitschaft.
+2 - {ANREDE} zeigte stets eine hohe Leistungsbereitschaft und Pflichtauffassung.
+3 - {ANREDE} zeigte Einsatzbereitschaft.
+4 - {ANREDE} zeigte auch Einsatzbereitschaft.
+5 - {ANREDE} war stets motiviert und zeigte Bereitschaft bei den übertragenen Aufgaben.

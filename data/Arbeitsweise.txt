@@ -1,0 +1,5 @@
+1 - Die Aufgaben führte {ANREDE} immer äußerst effizient, sorgfältig und selbständig aus.
+2 - Die Aufgaben führte {ANREDE} immer effizient, sorgfältig und selbständig aus.
+3 - Die Aufgaben führte {ANREDE} selbständig, effizient und sorgfältig aus.
+4 - Die Aufgaben wurden mit Sorgfalt und Genauigkeit ausgeführt.
+5 - Die Aufgaben wurden im allgemeinen mit Sorgfalt und Genauigkeit ausgeführt.
