@@ -275,25 +275,41 @@ server <- function(input, output, session) {
     }
   })
   
-  # Show selected categories
+  # Show selected categories in the preview box
+  # This reactive output displays which categories are enabled and their selected grades
+  # Format: "Category Name: Grade Text" (e.g., "Sozialverhalten: Sehr gut")
   output$selected_categories <- renderText({
     selected <- c()
+    
+    # Iterate through all available categories from the data files
     for (category_name in names(categories_data)) {
+      # Create safe variable names for Shiny input IDs (handles special characters)
       safe_name <- make.names(category_name)
       enable_input <- paste0("enable_", safe_name)
-      
+      # Check if the category checkbox is enabled
       if (!is.null(input[[enable_input]]) && input[[enable_input]]) {
         grade_input <- paste0("grade_", safe_name)
+        
+        # If a grade is selected for this enabled category
         if (!is.null(input[[grade_input]])) {
-          grade_text <- grade_names[input[[grade_input]]]
+          # Get the grade number (1-5) from the input
+          selected_grade <- input[[grade_input]]
+          
+          # Convert grade number to German text using the grade_names lookup
+          # grade_names: c("Sehr gut" = "1", "Gut" = "2", "Befriedigend" = "3", ...)
+          grade_text <- names(grade_names)[as.numeric(selected_grade)]
+          
+          # Add formatted string to the preview list
           selected <- c(selected, paste0(category_name, ": ", grade_text))
         }
       }
     }
     
+    # Return appropriate message based on whether categories are selected
     if (length(selected) == 0) {
       return("Keine Kategorien ausgewählt")
     } else {
+      # Join all selected categories with newlines for display
       return(paste(selected, collapse = "\n"))
     }
   })
