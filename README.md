@@ -58,25 +58,65 @@ Ein professioneller Shiny Dashboard zur Erstellung von deutschen Arbeitszeugniss
 └── _install.r             # Package Installation
 ```
 
-## Kategorien hinzufügen
+## 📋 Kategorien hinzufügen
 
 Neue Kategorien können durch .txt-Dateien im `data/` Ordner hinzugefügt werden:
 
-```
-1 - {ANREDE} zeigte hervorragende Leistungen...
-2 - {ANREDE} arbeitete stets zuverlässig...
+```plaintext
+1 - {ANREDE} zeigte {POSSESSIVE_ACC_FN} hervorragende Leistungen...
+2 - {ANREDE} arbeitete stets zuverlässig und {possessive_dat_mn} Bereich...
 3 - {ANREDE} erfüllte die Aufgaben zufriedenstellend...
 4 - {ANREDE} bemühte sich um ordnungsgemäße Arbeit...
 5 - {ANREDE} erledigte die Aufgaben nach Anweisung...
 ```
 
-## Template-Variablen
+## 🧪 Tests
 
-- `{ANREDE}`: Automatische Anrede (Herr/Frau + Name)
+Das Projekt enthält umfassende Tests im `tests/` Verzeichnis:
+
+- **test_fachkompetenz.R**: Tests der deutschen Grammatik mit deklinierenden Possessivpronomen
+- **test_templates.R**: Tests des Template-Systems für alle Geschlechter
+- **test_data.R**: Verifikation der Datenstruktur
+- **test_app.R**: Shiny App Debugging
+
+Tests ausführen:
+
+```bash
+cd tests
+Rscript test_fachkompetenz.R
+```
+
+## 📚 Template-Variablen
+
+### Grundvariablen
+- `{ANREDE}`: Automatische Anrede (Herr/Frau + Name oder nur Name für 'd')
 - `{VORNAME}`: Vorname
 - `{NACHNAME}`: Nachname
-- `{NAME}`: Vollständiger Name
+- `{PRONOUN}`: Personalpronomen (er/sie/sie)
 
-## Lizenz
+### Possessivpronomen (Nominativ)
+- `{SEIN_IHR}`: sein/ihr
+- `{SEINE_IHRE}`: seine/ihre
+- `{SEINEM_IHREM}`: seinem/ihrem
+- `{SEINER_IHRER}`: seiner/ihrer
+
+### Possessivpronomen (Akkusativ)
+- `{POSSESSIVE_ACC_M}`: seinen/ihren (maskulin)
+- `{POSSESSIVE_ACC_FN}`: Seine/Ihre (feminin/neutrum, kapitalisiert)
+
+### Possessivpronomen (Dativ)
+- `{POSSESSIVE_DAT_MN}`: seinem/ihrem (maskulin/neutrum)
+- `{POSSESSIVE_DAT_F}`: Seiner/Ihrer (feminin, kapitalisiert)
+
+Vollständige Dokumentation: `TEMPLATE_REFERENCE.md`
+
+## 🔧 Technische Details
+
+- **Shiny Dashboard**: Responsive Web-Interface
+- **here Package**: Robuste Pfadauflösung für alle Betriebssysteme
+- **German Grammar Engine**: Vollständige Unterstützung für deutsche Grammatikregeln
+- **Reactive UI**: Dynamische Kategorieauswahl und Satzgenerierung
+
+## 📄 Lizenz
 
 Dieses Projekt ist für den internen Gebrauch bestimmt.
