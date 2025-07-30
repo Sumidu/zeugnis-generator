@@ -1,9 +1,10 @@
 library(shiny)
 library(shinydashboard)
+library(here)
 
 # Simple test app to debug the issue
-source("R/helpers.R")
-categories_data <- load_category_data("data")
+source(here("R", "helpers.R"))
+categories_data <- load_category_data(here("data"))
 grade_names <- get_grade_names()
 
 # Simple UI for testing

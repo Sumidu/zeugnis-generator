@@ -168,6 +168,48 @@ ui <- dashboardPage(
             h4("Verfügbare Kategorien:"),
             verbatimTextOutput("available_categories"),
             
+            h4("Template-Variablen:"),
+            p("In den Sätzen können folgende Variablen verwendet werden:"),
+            tags$div(
+              style = "font-family: monospace; font-size: 12px;",
+              tags$h5("Grundlegende Angaben:"),
+              tags$ul(
+                tags$li("{ANREDE} - Vollständige Anrede (z.B. 'Herr Max Mustermann')"),
+                tags$li("{TITEL} - Nur der Titel (z.B. 'Herr', 'Frau')"),
+                tags$li("{VORNAME} - Vorname"),
+                tags$li("{NACHNAME} - Nachname"),
+                tags$li("{NAME} - Vollständiger Name")
+              ),
+              tags$h5("Pronomen - Nominativ (Wer?):"),
+              tags$ul(
+                tags$li("{PRONOUN} oder {ER_SIE} - Er/Sie (groß)"),
+                tags$li("{pronoun} oder {er_sie} - er/sie (klein)")
+              ),
+              tags$h5("Pronomen - Akkusativ (Wen?):"),
+              tags$ul(
+                tags$li("{PRONOUN_ACC} oder {IHN_SIE} - Ihn/Sie (groß)"),
+                tags$li("{pronoun_acc} oder {ihn_sie} - ihn/sie (klein)")
+              ),
+              tags$h5("Pronomen - Dativ (Wem?):"),
+              tags$ul(
+                tags$li("{PRONOUN_DAT} oder {IHM_IHR} - Ihm/Ihr (groß)"),
+                tags$li("{pronoun_dat} oder {ihm_ihr} - ihm/ihr (klein)")
+              ),
+              tags$h5("Possessivpronomen (Wessen?):"),
+              tags$ul(
+                tags$li("{POSSESSIVE} oder {SEIN_IHR} - Sein/Ihr (Nominativ, groß)"),
+                tags$li("{possessive} oder {sein_ihr} - sein/ihr (Nominativ, klein)"),
+                tags$li("{POSSESSIVE_ACC_M} oder {SEINEN_IHREN} - Seinen/Ihren (Akkusativ maskulin)"),
+                tags$li("{possessive_acc_m} oder {seinen_ihren} - seinen/ihren (Akkusativ maskulin)"),
+                tags$li("{POSSESSIVE_ACC_FN} oder {SEINE_IHRE} - Seine/Ihre (Akkusativ feminin/neutrum)"),
+                tags$li("{possessive_acc_fn} oder {seine_ihre} - seine/ihre (Akkusativ feminin/neutrum)"),
+                tags$li("{POSSESSIVE_DAT_MN} oder {SEINEM_IHREM} - Seinem/Ihrem (Dativ maskulin/neutrum)"),
+                tags$li("{possessive_dat_mn} oder {seinem_ihrem} - seinem/ihrem (Dativ maskulin/neutrum)"),
+                tags$li("{POSSESSIVE_DAT_F} oder {SEINER_IHRER} - Seiner/Ihrer (Dativ feminin)"),
+                tags$li("{possessive_dat_f} oder {seiner_ihrer} - seiner/ihrer (Dativ feminin)")
+              )
+            ),
+            
             h4("Notensystem:"),
             tags$ul(
               tags$li("1 = Sehr gut"),
@@ -330,16 +372,11 @@ server <- function(input, output, session) {
       }
     }
     
-    # Prepare replacements
-    anrede <- generate_anrede(input$first_name %||% "", 
-                             input$last_name %||% "", 
-                             input$gender %||% "m")
-    
-    replacements <- list(
-      "ANREDE" = anrede,
-      "VORNAME" = input$first_name %||% "",
-      "NACHNAME" = input$last_name %||% "",
-      "NAME" = paste(input$first_name %||% "", input$last_name %||% "")
+    # Prepare replacements using the comprehensive template system
+    replacements <- generate_template_replacements(
+      input$first_name %||% "", 
+      input$last_name %||% "", 
+      input$gender %||% "m"
     )
     
     # Generate final text

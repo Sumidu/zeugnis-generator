@@ -1,0 +1,10 @@
+1 - {ANREDE} verfügte über ausgezeichnete Führungsqualitäten. {PRONOUN} motivierte {POSSESSIVE} Team stets vorbildlich.
+1 - Als Führungskraft war {TITEL} {NACHNAME} außergewöhnlich. {ER_SIE} förderte jeden Mitarbeiter individuell.
+2 - {ANREDE} zeigte gute Führungskompetenzen. Das Team schätzte {ihn_sie} als kompetente Leitung.
+2 - Die Führungsqualitäten waren durchweg gut. {PRONOUN} konnte {POSSESSIVE} Mitarbeiter erfolgreich leiten.
+3 - {ANREDE} erfüllte {POSSESSIVE} Führungsaufgaben zufriedenstellend. {pronoun} bemühte sich um gute Teamarbeit.
+3 - Als Führungskraft war {er_sie} angemessen. Die Zusammenarbeit mit {IHM_IHR} verlief problemlos.
+4 - {ANREDE} bemühte sich um eine ordnungsgemäße Teamführung. {SEIN_IHR} Führungsstil war noch entwicklungsfähig.
+4 - Die Führungsleistung entsprach im Wesentlichen den Erwartungen. {PRONOUN} zeigte Lernbereitschaft.
+5 - {ANREDE} führte {POSSESSIVE} Team nach Vorgaben. {ER_SIE} benötigte regelmäßige Unterstützung bei Führungsentscheidungen.
+5 - Die Führungsqualitäten waren verbesserungsbedürftig. {sein_ihr} Führungsstil war noch nicht ausgereift.

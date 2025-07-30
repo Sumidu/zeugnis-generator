@@ -1,0 +1,53 @@
+# Copilot Instructions for Shiny Dashboard Application
+
+## Project Overview
+
+This is a Shiny application built with shinydashboard that [describe your app's purpose here].
+
+## Key Technologies
+
+- R Shiny
+- shinydashboard
+- [Add other relevant packages]
+
+## Architecture Guidelines
+
+- Use shinydashboard structure with header, sidebar, and body
+- Organize UI components in logical modules
+- Separate server logic into reactive functions
+- Follow Shiny best practices for reactivity
+
+## Code Style
+
+- Use meaningful variable and function names
+- Add comments for complex logic
+- Keep functions focused and modular
+- Use consistent indentation and formatting
+
+## File Structure
+
+- `app.R` or separate `ui.R` and `server.R`
+- `/modules/` for Shiny modules (if using modular approach)
+- `/data/` for data files
+- `/www/` for static assets (CSS, JS, images)
+- `/R/` for helper functions
+
+## Dashboard Components
+
+- Use appropriate shinydashboard components (boxes, value boxes, info boxes)
+- Implement responsive design principles
+- Consider user experience and navigation flow
+
+## Specific Requirements
+
+[Add any specific requirements for your zeugnis-generator application]
+
+## Dependencies
+
+Make sure to load required packages:
+
+```r
+library(shiny)
+library(shinydashboard)
+# Add other required libraries
+```
