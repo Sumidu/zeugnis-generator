@@ -1,50 +1,61 @@
 # Zeugnis Generator
 
-Ein Shiny Dashboard zur Erstellung von deutschen Arbeitszeugnissen.
+Ein professioneller Shiny Dashboard zur Erstellung von deutschen Arbeitszeugnissen mit vollständiger Grammatikunterstützung.
 
-## Funktionen
+## 🎯 Funktionen
 
-- **Kategoriebasierte Bewertung**: Verschiedene Kategorien wie Sozialverhalten, Pünktlichkeit, Arbeitsqualität
-- **Notensystem**: 5-stufiges deutsches Notensystem (1=Sehr gut bis 5=Mangelhaft)
-- **Personalisierung**: Automatische Anrede basierend auf Name und Geschlecht
-- **Template-System**: Flexible Satzvorlagen mit Platzhaltern
+- **Kategoriebasierte Bewertung**: 6 Bewertungskategorien (Arbeitsqualität, Fachkompetenz, Führungsverhalten, Leistungsbeurteilung, Pünktlichkeit, Sozialverhalten)
+- **Deutsches Notensystem**: 5-stufiges System (1=Sehr gut bis 5=Mangelhaft)
+- **Vollständige Grammatikunterstützung**: Korrekte deutsche Deklination für alle Geschlechter (m/w/d)
+- **Erweiterte Template-Variablen**: Unterstützung für Nominativ, Akkusativ, Dativ
+- **Personalisierung**: Automatische Anrede und Pronomen basierend auf Name und Geschlecht
 - **Copy-to-Clipboard**: Einfaches Kopieren des generierten Textes
 
-## Installation
+## 📋 Installation
 
 1. R und RStudio installieren
 2. Required packages installieren:
    ```r
    source("_install.r")
    ```
+3. Das `here` Package wird für robuste Pfadauflösung verwendet
 
-## Nutzung
+## 🚀 Nutzung
 
 1. App starten:
-
    ```r
    shiny::runApp()
    ```
 
-2. Persönliche Angaben eingeben (Name, Geschlecht)
+2. Persönliche Angaben eingeben (Vorname, Nachname, Geschlecht: m/w/d)
 3. Gewünschte Kategorien aktivieren
 4. Für jede Kategorie Note und Satz auswählen
 5. "Zeugnis generieren" klicken
 6. Text kopieren und in Word einfügen
 
-## Dateistruktur
+## 📁 Dateistruktur
 
 ```
-├── app.R                 # Hauptapplikation
+├── app.R                    # Hauptapplikation
 ├── R/
-│   └── helpers.R         # Hilfsfunktionen
-├── data/                 # Kategoriedateien (.txt)
-│   ├── Sozialverhalten.txt
+│   └── helpers.R           # Hilfsfunktionen & Template-System
+├── data/                   # Kategoriedateien (.txt)
+│   ├── Arbeitsqualität.txt
+│   ├── Fachkompetenz.txt
+│   ├── Führungsverhalten.txt
+│   ├── Leistungsbeurteilung.txt
 │   ├── Pünktlichkeit.txt
-│   └── Arbeitsqualität.txt
-├── www/                  # Statische Dateien
+│   └── Sozialverhalten.txt
+├── tests/                  # Test-Scripts
+│   ├── README.md
+│   ├── test_app.R
+│   ├── test_data.R
+│   ├── test_fachkompetenz.R
+│   └── test_templates.R
+├── www/                    # Statische Dateien
 │   └── styles.css
-└── _install.r           # Package Installation
+├── TEMPLATE_REFERENCE.md   # Vollständige Template-Dokumentation
+└── _install.r             # Package Installation
 ```
 
 ## Kategorien hinzufügen
