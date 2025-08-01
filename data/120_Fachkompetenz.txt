@@ -1,11 +1,11 @@
-1 - Aufgrund {possessive_dat_mn} umfangreichen und besonders fundierten Fachwissens erzielte {ANREDE} immer weit überdurchschnittliche Erfolge.
-1 - Mit {seinem_ihrem} fundierten Wissen unterstützte {PRONOUN} das gesamte Team. {POSSESSIVE_ACC_FN} Beratung war stets wertvoll.
-2 - {ANREDE} wendete {possessive_acc_fn} guten Fachkenntnisse laufend mit großem Erfolg im Arbeitsgebiet an.
-2 - {ANREDE} zeigte gute Fachkenntnisse. {possessive_dat_mn} Bereich war gut durchdacht und {seine_ihre} Lösungen waren praktikabel.
-2 - Die fachliche Kompetenz war durchweg gut. {POSSESSIVE_ACC_M} Vorgesetzten schätzten {possessive_acc_fn} Arbeit.
+1 - Aufgrund {seines_ihres} umfangreichen und besonders fundierten Fachwissens erzielte {ANREDE} immer weit überdurchschnittliche Erfolge.
+1 - Mit {seinem_ihrem} fundierten Wissen unterstützte {er_sie} das gesamte Team. {Seine_Ihre} Beratung war stets wertvoll.
+2 - {ANREDE} wendete {seine_ihre} guten Fachkenntnisse laufend mit großem Erfolg im Arbeitsgebiet an.
+2 - {ANREDE} zeigte gute Fachkenntnisse. {Sein_Ihr} Bereich war gut durchdacht und {seine_ihre} Lösungen waren praktikabel.
+2 - Die fachliche Kompetenz war durchweg gut. {Seine_Ihre} Vorgesetzten schätzten {seine_ihre} Arbeit.
 3 - {ANREDE} besitzt ein solides Fachwissen in {seinem_ihrem} Fachgebiet.
-3 - {ANREDE} verfügte über angemessene Fachkenntnisse. {possessive_dat_f} Arbeitsweise entsprach den Erwartungen.
-3 - Die fachlichen Leistungen waren zufriedenstellend. {SEINEM_IHREM} Team war {pronoun} eine verlässliche Unterstützung.
+3 - {ANREDE} verfügte über angemessene Fachkenntnisse. {SEINE_IHRE} Arbeitsweise entsprach den Erwartungen.
+3 - Die fachlichen Leistungen waren zufriedenstellend. {SEINEM_IHREM} Team war {er_sie} eine verlässliche Unterstützung.
 4 - {ANREDE} besitzt das erforderliche Fachwissen.
 4 - {ANREDE} bemühte sich um fachliche Verbesserung. {POSSESSIVE_DAT_MN} Bereich zeigte {pronoun} Lernbereitschaft.
 4 - Die Fachkompetenz war entwicklungsfähig. {possessive_acc_m} Kollegen half {pronoun} gerne bei Fragen.

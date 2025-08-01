@@ -1,5 +1,5 @@
-1 - Wir bedauern {sein_ihr} Ausscheiden sehr und danken {pronoun_dat} für stets sehr gute Leistungen. Wir wünschen {pronoun_dat} auf dem weiteren Berufs- und Lebensweg alles Gute und weiterhin viel Erfolg.
-2 - Wir bedauern {sein_ihr} Ausscheiden und danken {pronoun_dat} für die stets guten Leistungen. Wir wünschen {pronoun_dat} auf dem weiteren Berufs- und Lebensweg alles Gute und weiterhin Erfolg.
-3 - Wir bedauern {sein_ihr} Ausscheiden und danken {pronoun_dat} für die guten Leistungen. Wir wünschen {pronoun_dat} auf dem weiteren Berufs- und Lebensweg alles Gute und Erfolg.
-4 - Wir bedanken uns für {possessive_acc_fn} Mitarbeit. Wir wünschen {pronoun_dat} für die Zukunft alles Gute.
-5 - Wir wünschen {pronoun_dat} alles nur erdenklich Gute, insbesondere auch Erfolg bei den weiteren Bemühungen.
+1 - Wir bedauern {sein_ihr} Ausscheiden sehr und danken {ihm_ihr} für stets sehr gute Leistungen. Wir wünschen {ihm_ihr} auf dem weiteren Berufs- und Lebensweg alles Gute und weiterhin viel Erfolg.
+2 - Wir bedauern {sein_ihr} Ausscheiden und danken {ihm_ihr} für die stets guten Leistungen. Wir wünschen {ihm_ihr} auf dem weiteren Berufs- und Lebensweg alles Gute und weiterhin Erfolg.
+3 - Wir bedauern {sein_ihr} Ausscheiden und danken {ihm_ihr} für die guten Leistungen. Wir wünschen {ihm_ihr} auf dem weiteren Berufs- und Lebensweg alles Gute und Erfolg.
+4 - Wir bedanken uns für {seine_ihre} Mitarbeit. Wir wünschen {ihm_ihr} für die Zukunft alles Gute.
+5 - Wir wünschen {ihm_ihr} alles nur erdenklich Gute, insbesondere auch Erfolg bei den weiteren Bemühungen.

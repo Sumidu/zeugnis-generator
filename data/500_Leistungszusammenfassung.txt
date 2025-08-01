@@ -1,5 +1,5 @@
-1 - {POSSESSIVE_ACC_FN} Leistungen fanden stets unsere vollste Zufriedenheit.
-2 - {POSSESSIVE_ACC_FN} Leistungen fanden stets unsere volle Zufriedenheit.
-3 - {POSSESSIVE_ACC_FN} Leistungen fanden unsere volle Zufriedenheit.
-4 - {POSSESSIVE_ACC_FN} Leistungen fanden unsere Zufriedenheit.
-5 - Aufgaben, die {pronoun} übertragen wurden, erledigte {ANREDE} in der Regel zu unserer Zufriedenheit.
+1 - {Seine_Ihre} Leistungen fanden stets unsere vollste Zufriedenheit.
+2 - {Seine_Ihre} Leistungen fanden stets unsere volle Zufriedenheit.
+3 - {Seine_Ihre} Leistungen fanden unsere volle Zufriedenheit.
+4 - {Seine_Ihre} Leistungen fanden unsere Zufriedenheit.
+5 - Aufgaben, die {ihm_ihr} übertragen wurden, erledigte {ANREDE} in der Regel zu unserer Zufriedenheit.

@@ -1,14 +1,14 @@
-1 - {ANREDE} verfügte über ausgezeichnete Führungsqualitäten. {PRONOUN} motivierte {POSSESSIVE} Team stets vorbildlich.
-1 - Als Führungskraft war {TITEL} {NACHNAME} außergewöhnlich. {ER_SIE} förderte jeden Mitarbeiter individuell.
-2 - 1 - {ANREDE} verfügt über sehr gute Führungseigenschaften und motivierte {possessive_acc_fn} Mitarbeiter stets zu sehr hohen Leistungen. Aufgaben und Verantwortung delegierte {pronoun} zielgerichtet.
-2 - {ANREDE} überzeugte {possessive_acc_fn} Mitarbeiter und förderte die Zusammenarbeit. {PRONOUN} informierte {sein_ihr} Team, regte Weiterbildung an und delegierte Aufgaben und Verantwortung und erreichte so ein hohes Abteilungsergebnis.
-3 - {ANREDE} führte {possessive_acc_fn} Mitarbeiter zielbewusst und konsequent zu voll befriedigenden Leistungen.
+1 - {ANREDE} verfügte über ausgezeichnete Führungsqualitäten. {Er_Sie} motivierte {sein_ihr} Team stets vorbildlich.
+1 - Als Führungskraft war {TITEL} {NACHNAME} außergewöhnlich. {Er_Sie} förderte jeden Mitarbeiter individuell.
+2 - 1 - {ANREDE} verfügt über sehr gute Führungseigenschaften und motivierte {seine_ihre} Mitarbeiter stets zu sehr hohen Leistungen. Aufgaben und Verantwortung delegierte {er_sie} zielgerichtet.
+2 - {ANREDE} überzeugte {seine_ihre} Mitarbeiter und förderte die Zusammenarbeit. {Er_Sie} informierte {sein_ihr} Team, regte Weiterbildung an und delegierte Aufgaben und Verantwortung und erreichte so ein hohes Abteilungsergebnis.
+3 - {ANREDE} führte {seine_ihre} Mitarbeiter zielbewusst und konsequent zu voll befriedigenden Leistungen.
 4 - {ANREDE} setzte Mitarbeiter ihren Fähigkeiten entsprechend ordnungsgemäß ein und motivierte sie sachgemäß.
-5 - {ANREDE} war sich stets der besonderen Verantwortung, die sich aus einem Führungsauftrag ergibt, bewusst. {PRONOUN} erwartete, dass die Mitarbeiter sich jederzeit voll einsetzten.
-2 - Die Führungsqualitäten waren durchweg gut. {PRONOUN} konnte {POSSESSIVE} Mitarbeiter erfolgreich leiten.
-3 - {ANREDE} erfüllte {POSSESSIVE} Führungsaufgaben zufriedenstellend. {pronoun} bemühte sich um gute Teamarbeit.
-3 - Als Führungskraft war {er_sie} angemessen. Die Zusammenarbeit mit {IHM_IHR} verlief problemlos.
-4 - {ANREDE} bemühte sich um eine ordnungsgemäße Teamführung. {SEIN_IHR} Führungsstil war noch entwicklungsfähig.
-4 - Die Führungsleistung entsprach im Wesentlichen den Erwartungen. {PRONOUN} zeigte Lernbereitschaft.
-5 - {ANREDE} führte {POSSESSIVE} Team nach Vorgaben. {ER_SIE} benötigte regelmäßige Unterstützung bei Führungsentscheidungen.
+5 - {ANREDE} war sich stets der besonderen Verantwortung, die sich aus einem Führungsauftrag ergibt, bewusst. {Er_Sie} erwartete, dass die Mitarbeiter sich jederzeit voll einsetzten.
+2 - Die Führungsqualitäten waren durchweg gut. {Er_Sie} konnte {seine_ihre} Mitarbeiter erfolgreich leiten.
+3 - {ANREDE} erfüllte {seine_ihre} Führungsaufgaben zufriedenstellend. {Er_Sie} bemühte sich um gute Teamarbeit.
+3 - Als Führungskraft war {er_sie} angemessen. Die Zusammenarbeit mit {ihm_ihr} verlief problemlos.
+4 - {ANREDE} bemühte sich um eine ordnungsgemäße Teamführung. {Sein_Ihr} Führungsstil war noch entwicklungsfähig.
+4 - Die Führungsleistung entsprach im Wesentlichen den Erwartungen. {Er_Sie} zeigte Lernbereitschaft.
+5 - {ANREDE} führte {sein_ihr} Team nach Vorgaben. {Er_Sie} benötigte regelmäßige Unterstützung bei Führungsentscheidungen.
 5 - Die Führungsqualitäten waren verbesserungsbedürftig. {sein_ihr} Führungsstil war noch nicht ausgereift.

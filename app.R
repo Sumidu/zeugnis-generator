@@ -384,7 +384,7 @@ server <- function(input, output, session) {
       )
       
       # Generate final text
-      final_text <- generate_zeugnis_text(selected_sentences, replacements)
+      final_text <- generate_zeugnis_text(selected_sentences, replacements, input$gender %||% "m")
       
       # Update textarea
       session$sendCustomMessage(type = 'updateTextarea', 

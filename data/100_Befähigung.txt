@@ -1,5 +1,5 @@
-1 - {ER_SIE} verfügt über ein sehr gutes analytisch-konzeptionelles und zugleich pragmatisches Urteils- und Denkvermögen.
-2 - {ER_SIE} verfügt über ein gutes analytisch-konzeptionelles und zugleich pragmatisches Urteils- und Denkvermögen.
-3 - {ER_SIE} bewies Belastbarkeit und Flexibilität.
-4 - {ER_SIE} verfügte über eine ausreichende Arbeitsbefähigung.
+1 - {Er_Sie} verfügt über ein sehr gutes analytisch-konzeptionelles und zugleich pragmatisches Urteils- und Denkvermögen.
+2 - {Er_Sie} verfügt über ein gutes analytisch-konzeptionelles und zugleich pragmatisches Urteils- und Denkvermögen.
+3 - {Er_Sie} bewies Belastbarkeit und Flexibilität.
+4 - {Er_Sie} verfügte über eine ausreichende Arbeitsbefähigung.
 5 - Zu den unabdingbaren Voraussetzungen für {seine_ihre} Funktion gehörten Eigenschaften wie Belastbarkeit, Flexibilität und analytisches Denkvermögen.

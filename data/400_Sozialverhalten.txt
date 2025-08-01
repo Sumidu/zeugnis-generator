@@ -1,5 +1,5 @@
-1 - {POSSESSIVE_ACC_MN} Verhalten gegenüber Vorgesetzten und Kollegen war jederzeit vorbildlich.
-2 - {POSSESSIVE_ACC_MN} Verhalten gegenüber Vorgesetzten und Kollegen war jederzeit einwandfrei.
-3 - {POSSESSIVE_ACC_MN} Verhalten gegenüber Vorgesetzten und Kollegen war einwandfrei.
-4 - {POSSESSIVE_ACC_MN} Verhalten gegenüber Kollegen und Vorgesetzten war korrekt und ohne Beanstandung.
+1 - {Sein_Ihr} Verhalten gegenüber Vorgesetzten und Kollegen war jederzeit vorbildlich.
+2 - {Sein_Ihr} Verhalten gegenüber Vorgesetzten und Kollegen war jederzeit einwandfrei.
+3 - {Sein_Ihr} Verhalten gegenüber Vorgesetzten und Kollegen war einwandfrei.
+4 - {Sein_Ihr} Verhalten gegenüber Kollegen und Vorgesetzten war korrekt und ohne Beanstandung.
 5 - Es erübrigt sich zu betonen, dass {sein_ihr} Betragen gegenüber den Vorgesetzten und Kollegen unbelastet war.
