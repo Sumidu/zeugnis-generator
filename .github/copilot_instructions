@@ -40,6 +40,7 @@ The user interface is german.
 - `app.R` or separate `ui.R` and `server.R`
 - `/modules/` for Shiny modules (if using modular approach)
 - `/data/` for data files
+- `/tests/` for test files
 - `/www/` for static assets (CSS, JS, images)
 - `/R/` for helper functions
 
