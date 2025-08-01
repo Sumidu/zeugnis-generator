@@ -1,7 +1,5 @@
 # Test the enhanced template system
-library(here)
-
-source(here("R", "helpers.R"))
+source("R/helpers.R")
 
 # Test with different genders
 test_cases <- list(
