@@ -94,7 +94,7 @@ ui <- dashboardPage(
         
         fluidRow(
           # Categories box
-          column(6,
+          column(7,
             box(
               title = "Kategorien auswählen", status = "info", solidHeader = TRUE,
               width = 12, collapsible = TRUE,
@@ -105,7 +105,7 @@ ui <- dashboardPage(
           ),
           
           # Preview and Generated Text column
-          column(6,
+          column(5,
             # Preview box
             box(
               title = "Vorschau", status = "success", solidHeader = TRUE,

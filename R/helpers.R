@@ -5,10 +5,18 @@
 #' @return List of categories with sentences
 load_category_data <- function(data_dir = "data") {
   category_files <- list.files(data_dir, pattern = "\\.txt$", full.names = TRUE)
+  # Sort files by name to ensure proper ordering (numeric prefixes)
+  category_files <- sort(category_files)
   categories <- list()
   
   for (file in category_files) {
-    category_name <- tools::file_path_sans_ext(basename(file))
+    # Extract the full filename without extension
+    full_name <- tools::file_path_sans_ext(basename(file))
+    
+    # Remove numeric prefix (XXX_) from category name for display
+    # Pattern matches: 3 digits + underscore at start of string
+    category_name <- gsub("^[0-9]{3}_", "", full_name)
+    
     lines <- readLines(file, encoding = "UTF-8", warn = FALSE)
     
     # Parse sentences with grades
