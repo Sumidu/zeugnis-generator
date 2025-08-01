@@ -237,13 +237,13 @@ server <- function(input, output, session) {
           class = "panel panel-default",
           style = "margin-bottom: 15px; padding: 15px; border: 1px solid #ddd; border-radius: 4px;",
           
-          h4(category_name, style = "margin-top: 0;"),
+          #h4(category_name, style = "margin-top: 0;"),
           
           fluidRow(
             column(6,
               checkboxInput(
                 inputId = paste0("enable_", make.names(category_name)),
-                label = paste("Kategorie", category_name, "verwenden"),
+                label = paste("Kategorie", category_name),
                 value = FALSE
               )
             )

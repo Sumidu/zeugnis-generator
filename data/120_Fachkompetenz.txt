@@ -1,8 +1,7 @@
 1 - Aufgrund {possessive_dat_mn} umfangreichen und besonders fundierten Fachwissens erzielte {ANREDE} immer weit überdurchschnittliche Erfolge.
-1 - {ANREDE} bewies {POSSESSIVE_ACC_FN} außergewöhnliche Fachkompetenz. Wir schätzten {possessive_acc_m} Kollegen und {POSSESSIVE_DAT_F} Expertise vertrauten alle.
 1 - Mit {seinem_ihrem} fundierten Wissen unterstützte {PRONOUN} das gesamte Team. {POSSESSIVE_ACC_FN} Beratung war stets wertvoll.
 2 - {ANREDE} wendete {possessive_acc_fn} guten Fachkenntnisse laufend mit großem Erfolg im Arbeitsgebiet an.
-2 - {ANREDE} zeigte gute Fachkenntnisse. {possessive_dat_mn} Bereich war gut durchdacht und {SEINE_IHRE} Lösungen waren praktikabel.
+2 - {ANREDE} zeigte gute Fachkenntnisse. {possessive_dat_mn} Bereich war gut durchdacht und {seine_ihre} Lösungen waren praktikabel.
 2 - Die fachliche Kompetenz war durchweg gut. {POSSESSIVE_ACC_M} Vorgesetzten schätzten {possessive_acc_fn} Arbeit.
 3 - {ANREDE} besitzt ein solides Fachwissen in {seinem_ihrem} Fachgebiet.
 3 - {ANREDE} verfügte über angemessene Fachkenntnisse. {possessive_dat_f} Arbeitsweise entsprach den Erwartungen.
