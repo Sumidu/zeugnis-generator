@@ -94,47 +94,45 @@ ui <- dashboardPage(
         
         fluidRow(
           # Categories box
-          box(
-            title = "Kategorien auswählen", status = "info", solidHeader = TRUE,
-            width = 8, collapsible = TRUE,
-            
-            # Dynamic UI for categories will be generated here
-            uiOutput("category_ui")
+          column(6,
+            box(
+              title = "Kategorien auswählen", status = "info", solidHeader = TRUE,
+              width = 12, collapsible = TRUE,
+              
+              # Dynamic UI for categories will be generated here
+              uiOutput("category_ui")
+            )
           ),
           
-          # Preview box
-          box(
-            title = "Vorschau", status = "success", solidHeader = TRUE,
-            width = 4,
-            
-            h4("Ausgewählte Kategorien:"),
-            verbatimTextOutput("selected_categories"),
-            
-            br(),
-            actionButton("generate", "Zeugnis generieren", 
-                        class = "btn-success btn-lg",
-                        style = "width: 100%;")
-          )
-        ),
-        
-        fluidRow(
-          # Final text box
-          box(
-            title = "Generiertes Zeugnis", status = "warning", solidHeader = TRUE,
-            width = 12, collapsible = TRUE,
-            
-            div(
-              style = "margin-bottom: 10px;",
-              actionButton("copy_text", "Text kopieren", 
-                          class = "btn-primary",
-                          icon = icon("copy"))
+          # Preview and Generated Text column
+          column(6,
+            # Preview box
+            box(
+              title = "Vorschau", status = "success", solidHeader = TRUE,
+              width = 12,
+              
+              h4("Ausgewählte Kategorien:"),
+              verbatimTextOutput("selected_categories")
             ),
             
-            tags$textarea(
-              id = "final_text",
-              class = "form-control",
-              style = "width: 100%; min-height: 200px; resize: vertical;",
-              placeholder = "Das generierte Zeugnis wird hier angezeigt..."
+            # Final text box directly below preview
+            box(
+              title = "Generiertes Zeugnis", status = "warning", solidHeader = TRUE,
+              width = 12, collapsible = TRUE,
+              
+              div(
+                style = "margin-bottom: 10px;",
+                actionButton("copy_text", "Text kopieren", 
+                            class = "btn-primary",
+                            icon = icon("copy"))
+              ),
+              
+              tags$textarea(
+                id = "final_text",
+                class = "form-control",
+                style = "width: 100%; min-height: 200px; resize: vertical;",
+                placeholder = "Das generierte Zeugnis wird hier angezeigt..."
+              )
             )
           )
         )
@@ -161,9 +159,10 @@ ui <- dashboardPage(
               tags$li("Einen spezifischen Satz aus den verfügbaren Optionen wählen")
             ),
             
-            h4("3. Zeugnis generieren"),
-            p("Klicken Sie auf 'Zeugnis generieren', um den finalen Text zu erstellen. 
-              Der Text kann dann kopiert und in Word eingefügt werden."),
+            h4("3. Automatische Generierung"),
+            p("Das Zeugnis wird automatisch aktualisiert, sobald Sie Änderungen an den 
+              Kategorien oder persönlichen Angaben vornehmen. Der Text kann dann kopiert 
+              und in Word eingefügt werden."),
             
             h4("Verfügbare Kategorien:"),
             verbatimTextOutput("available_categories"),
@@ -356,8 +355,8 @@ server <- function(input, output, session) {
     }
   })
   
-  # Generate zeugnis text
-  observeEvent(input$generate, {
+  # Generate zeugnis text reactively
+  observe({
     # Collect selected sentences
     selected_sentences <- list()
     
@@ -372,19 +371,29 @@ server <- function(input, output, session) {
       }
     }
     
-    # Prepare replacements using the comprehensive template system
-    replacements <- generate_template_replacements(
-      input$first_name %||% "", 
-      input$last_name %||% "", 
-      input$gender %||% "m"
-    )
-    
-    # Generate final text
-    final_text <- generate_zeugnis_text(selected_sentences, replacements)
-    
-    # Update textarea
-    session$sendCustomMessage(type = 'updateTextarea', 
-                             message = list(id = 'final_text', value = final_text))
+    # Only generate text if we have personal info and at least one sentence
+    if (nchar(input$first_name %||% "") > 0 && 
+        nchar(input$last_name %||% "") > 0 && 
+        length(selected_sentences) > 0) {
+      
+      # Prepare replacements using the comprehensive template system
+      replacements <- generate_template_replacements(
+        input$first_name %||% "", 
+        input$last_name %||% "", 
+        input$gender %||% "m"
+      )
+      
+      # Generate final text
+      final_text <- generate_zeugnis_text(selected_sentences, replacements)
+      
+      # Update textarea
+      session$sendCustomMessage(type = 'updateTextarea', 
+                               message = list(id = 'final_text', value = final_text))
+    } else {
+      # Clear textarea if no valid input
+      session$sendCustomMessage(type = 'updateTextarea', 
+                               message = list(id = 'final_text', value = ""))
+    }
   })
   
   # Copy text functionality
