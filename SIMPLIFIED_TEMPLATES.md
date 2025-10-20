@@ -42,14 +42,6 @@ Examples:
 
 ## Example Usage
 
-### Before (Complex)
-
-```
-{POSSESSIVE_ACC_MN} Verhalten gegenüber Vorgesetzten war {adjective_agreement_complex}.
-```
-
-### After (Simple)
-
 ```
 {Sein_Ihr} Verhalten gegenüber Vorgesetzten war {vorbildlich_vorbildlich}.
 ```

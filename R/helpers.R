@@ -171,7 +171,7 @@ replace_templates <- function(text, replacements, gender = "m") {
     
     for (template in template_matches) {
       # Extract the male and female parts
-      parts <- regmatches(template, regexec("\\{([A-Za-zÄÖÜäöüß]+)_([A-Za-zÄÖÜäöüß]+)\\}", template, perl = TRUE))[[1]]
+      parts <- regmatches(template, regexec("\\{([A-Za-zÄÖÜäöüß]+)_([A-Za-zÄÖÜäöüß]+)\\}", template, perl = TRUE))[[1]] # Full match + 2 groups
       
       if (length(parts) == 3) {  # Full match + 2 groups
         male_part <- parts[2]
