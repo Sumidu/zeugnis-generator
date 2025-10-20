@@ -235,7 +235,7 @@ server <- function(input, output, session) {
       category_elements[[length(category_elements) + 1]] <- 
         div(
           class = "panel panel-default",
-          style = "margin-bottom: 15px; padding: 15px; border: 1px solid #ddd; border-radius: 4px;",
+          style = "margin-bottom: 5px; padding: 5px; border: 1px solid #ddd; border-radius: 4px;",
           
           #h4(category_name, style = "margin-top: 0;"),
           

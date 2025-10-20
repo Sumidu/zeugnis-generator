@@ -7,8 +7,8 @@
 3 - {ANREDE} verfügte über angemessene Fachkenntnisse. {SEINE_IHRE} Arbeitsweise entsprach den Erwartungen.
 3 - Die fachlichen Leistungen waren zufriedenstellend. {SEINEM_IHREM} Team war {er_sie} eine verlässliche Unterstützung.
 4 - {ANREDE} besitzt das erforderliche Fachwissen.
-4 - {ANREDE} bemühte sich um fachliche Verbesserung. {POSSESSIVE_DAT_MN} Bereich zeigte {pronoun} Lernbereitschaft.
-4 - Die Fachkompetenz war entwicklungsfähig. {possessive_acc_m} Kollegen half {pronoun} gerne bei Fragen.
+4 - {ANREDE} bemühte sich um fachliche Verbesserung. {SEINE_IHRE} Bereich zeigte {er_sie} Lernbereitschaft.
+4 - Die Fachkompetenz war entwicklungsfähig. {SEINE_IHRE} Kollegen half {ihm_ihr} gerne bei Fragen.
 5 - {ANREDE} zeigte bei der Beschäftigung mit den {pronoun} übertragenen Aufgaben das notwendige Fachwissen, das {pronoun} wiederholt erfolgversprechend einsetzte.
 5 - {ANREDE} benötigte Unterstützung bei fachlichen Aufgaben. {SEINER_IHRER} Einarbeitung widmeten wir besondere Aufmerksamkeit.
 5 - Die fachlichen Kenntnisse waren ausbaufähig. {possessive_dat_mn} Arbeitsbereich erforderte häufige Anleitung.
