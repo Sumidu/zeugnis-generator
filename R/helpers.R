@@ -10,6 +10,7 @@ load_category_data <- function(data_dir = "data") {
   categories <- list()
   
   for (file in category_files) {
+    # file <- category_files[1]  # For debugging
     # Extract the full filename without extension
     full_name <- tools::file_path_sans_ext(basename(file))
     
@@ -22,14 +23,15 @@ load_category_data <- function(data_dir = "data") {
     # Parse sentences with grades
     sentences <- list()
     for (line in lines) {
+      # line <- lines[1]  # For debugging
       if (nchar(trimws(line)) > 0) {
         # Extract grade (1-5) from beginning of line
         grade_match <- regexpr("^([1-5])\\s*-\\s*", line)
         if (grade_match > 0) {
-          grade_text <- regmatches(line, grade_match)
-          grade_text <- gsub("\\s*-\\s*", "", grade_text)
-          grade <- as.numeric(trimws(grade_text))
-          sentence <- sub("^[1-5]\\s*-\\s*", "", line)
+          grade_text <- regmatches(line, grade_match) # get the matched text
+          grade_text <- gsub("\\s*-\\s*", "", grade_text) # remove hyphen and spaces
+          grade <- as.numeric(trimws(grade_text)) # convert to numeric
+          sentence <- sub("^[1-5]\\s*-\\s*", "", line) # remove grade part from line
           
           if (is.null(sentences[[as.character(grade)]])) {
             sentences[[as.character(grade)]] <- c()

@@ -8,7 +8,7 @@ library(shinydashboard)
 source("R/helpers.R")
 
 # Load category data
-categories_data <- load_category_data("data")
+categories_data <- load_category_data(here::here("data"))
 grade_names <- get_grade_names()
 
 # Define UI
